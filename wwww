@@ -1,0 +1,4 @@
+		<Proxy *>
+			Order deny,allow
+			Allow from all
+		</Proxy>

@@ -1,0 +1,5 @@
+[mysqld]
+user                    = mysql
+datadir                 = /var/lib/mysql
+max_allowed_packet      = 16M
+key_buffer_size         = 1GB
