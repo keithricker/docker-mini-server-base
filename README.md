@@ -54,7 +54,7 @@ docker run -it --name tinyserver -p 8080:80 -p 49158:3306 -d kricker/mini-server
 
 ```
 
-###Acessing the Database
+###Accessing the Database
 
 With the port mapping of 49158:3306 as outlined above ... the database can be accessed via command line, or using the mysql gui tool of your choice (I like sequel pro personally). Just use "localhost" as the host, and port 49158 (instead of the usual 3306). 
 
